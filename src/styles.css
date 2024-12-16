@@ -1,1 +1,17 @@
+.ngx-toastr {
+    z-index: 9999 !important;  /* High z-index to ensure visibility */
+  }
+  
+  /* Customize the toast container if necessary */
+  .toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
